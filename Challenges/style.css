@@ -23,18 +23,6 @@ body {
   padding: 15px;
 }
 
-.sale-text {
-  background-color: red;
-  display: inline-block;
-  color: #fff;
-  padding: 3px 8px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  position: absolute;
-  left: -45px;
-  top: -20px;
-}
-
 /* Product information */
 
 .price {
@@ -49,9 +37,25 @@ body {
   margin-bottom: 20px;
 }
 
+.sale {
+  background-color: #ec2f2f;
+  display: inline-block;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: absolute;
+  left: -38px;
+  top: -17px;
+}
+
 .more-info:link,
 .more-info:visited {
   color: black;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -59,56 +63,36 @@ body {
   text-decoration: none;
 }
 
-.product-colors {
+.colors {
   position: relative;
-  margin-top: 30px;
 }
 
-.black {
+.color {
+  background-color: #000;
+  width: 22px;
+  height: 22px;
   display: inline-block;
-  background-color: black;
-  width: 20px;
-  height: 20px;
   margin-right: 10px;
 }
 
 .blue {
-  display: inline-block;
-  background-color: blue;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  background-color: #2f6ee2;
 }
 
 .red {
-  display: inline-block;
-  background-color: red;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  background-color: #ec2f2f;
 }
 
-.orange {
-  display: inline-block;
-  background-color: orange;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+.yellow {
+  background-color: #f0bf1e;
 }
 
 .green {
-  display: inline-block;
-  background-color: green;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  background-color: #92ee20;
 }
 
 .brown {
-  display: inline-block;
-  background-color: brown;
-  width: 20px;
-  height: 20px;
+  background-color: #885214;
 }
 
 /* Product details */
